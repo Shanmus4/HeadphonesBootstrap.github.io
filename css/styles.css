@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+html, body{
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    box-shadow: whitq;
+    background: rgb(87, 87, 87);
+    
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px grey; 
+    border-radius: 10px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px grey;    
+    width: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #cecece; 
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+
+#mainrow{
+    height: 100%;
+}
+#sidebar{
+    height: 150%;
+    background-color:black;
+}
+
+#tabs{
+    height: 100%;
+}
+
+#firstrow{
+    height: 50%;
+    
+}
+
+#first{
+    overflow: hidden;
+    height: 100%;
+    background: #207cca; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #207cca 1%, #6699ff 61%, #82e8f2 100%, #82e8f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #207cca 1%,#6699ff 61%,#82e8f2 100%,#82e8f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #207cca 1%,#6699ff 61%,#82e8f2 100%,#82e8f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#secondrow{
+    height: 50%;
+}
+
+#second{
+    height: 100%;
+    background: #e8004d; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #e8004d 2%, #eacc81 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #e8004d 2%,#eacc81 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #e8004d 2%,#eacc81 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#third{
+
+    height: 100%;
+    background-color: rgb(73, 34, 99);
+}
+
+#thirdrow{
+    height: 50%;   
+}
+
+#fourth{
+    height: 100%;    
+    background-color: rgb(219, 219, 219);
+}
+
+#fifth{
+    height: 100%;    
+    background-color: white;
+}
